@@ -12,12 +12,12 @@ const StyledButtonComponent = () => {
 
   return (
     <>
-      <TestButton data-test="component-styled-button">
+      <TestButton onClick={clickHandler} data-test="component-styled-button">
       Click Me!!
       </TestButton>
       <p data-test="text-tag">{testText}</p>
     </>
   );
-};
+}
 
 export default StyledButtonComponent;
